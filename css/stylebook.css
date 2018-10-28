@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+body{
+  background-color: lightgray;
+}
+hr {
+background-color:blue;
+}
+a {
+    color: green;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+a:hover{
+    color: #272727;
+}
+
+.book-tit {
+    width: 100%;
+    height: 100%;
+}
+  .book-tit  h1 {
+        text-align: right;
+        padding: 20px;
+        font-size: 24px;
+
+    }
+
+
+.book-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background-color: #b8afaf;
+}
+  .book-cont   .book-imgNinf {
+        margin: 20px;}
+
+      .book-cont   .book-img {
+            float: left;}
+
+        .book-cont    img {
+                width: 155px;
+                height: 250px;
+            }
+
+
+        .book-info {
+            float: left;
+            font-size: 24px;}
+
+          .book-info  p {
+                margin: 0 0 20px 10px;
+                font-style: italic;
+            }
+
+          .book-info  span {
+                font-style: normal;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .book-myinfo {
+        margin: 20px;
+        font-size: 24px;
+    }
+
+
+.book-cont1 {
+    width: 100%;
+    height: 100%;
+    background-color: #b8afaf;}
+
+  .book-cont1   .book-shortinfo {
+        font-size: 24px;
+        text-align: right;
+        padding: 20px;
+    }
+
+    .book-shorttext   p {
+            margin: 20px;
+            font-size: 24px;
+            text-align: justify;
+            text-indent: 20px;
+        }
+
+
+
+.book-cont2 {
+    width: 100%;
+    height: 100%;
+    background-color: #b8afaf;}
+
+    .book-author-imgninfo
+        .book-author-img {
+            float: left;}
+
+      .book-author-imgninfo       img {
+                margin: 20px;
+                width: 155px;
+                height: 250px;
+            }
+
+
+        .book-author-info {
+            font-size: 24px;}
+
+            .book-author-info   p {
+                padding: 20px;
+                text-align: justify;}
+
+                .book-author-info   span {
+                    font-weight: bold;
+                }
+
+
+            p:last-child {
+                text-indent: 25px;
+            }
+
+        }
+    }
+}
+.book-cont3{
+    width: 100%;
+    height: 100%;
+    background-color: #b8afaf;}
+  .book-cont3  p{
+        padding: 20px;
+        font-size: 24px;
+        text-align: justify;
+        text-indent: 25px;
+
+    }
+  .book-cont3  h2,h3{
+        text-align: center;
+    }
